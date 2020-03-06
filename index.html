@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEW 1.1 - Final Assessment - Aucoeur Ngo</title>
+   <link href="https://fonts.googleapis.com/css?family=Exo+2|Lato|Roboto|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <form action="">
+                    <label for="titleText">Header</label>
+                <div id="title">
+                    <input type="text" id="titleText" value=""> 
+                    <input type="color" id="titleColor">
+                </div>
+                <br />
+                    <label for="msg">Message</label>
+                <div id="message">
+                    <textarea id="msg" cols="30" rows="10"></textarea>
+                    <input type="color" id="msgColor">
+                </div>
+                <hr>
+                <div class="font">
+                    <div>
+                        <label for="fontType">Fonts</label>
+                        <select id="fontType">
+                            <option value="Roboto">Roboto</option>
+                            <option value="Lato">Lato</option>
+                            <option value="Ubuntu">Ubuntu</option>
+                            <option value="Exo+2">Exo 2</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="fontSize">Font Size</label>
+                        <input type="range" id="fontSize" min="11" max="60">
+                    </div>
+                </div>
+                <br />
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="right">
+            <h1 id="titleDisplay">Sample Text</h1>
+            <p id="msgDisplay">Sample Message</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
