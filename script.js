@@ -7,6 +7,7 @@ const msgDisplay = document.getElementById('msgDisplay')
 
 const fontType = document.getElementById('fontType')
 const fontSize = document.getElementById('fontSize')
+const submit = document.getElementById('submit')
 
 titleText.addEventListener('keyup', function () {
     titleDisplay.innerHTML = titleText.value
@@ -32,4 +33,8 @@ fontType.addEventListener('change', function() {
 fontSize.addEventListener('change', function() {
     titleDisplay.style.fontSize = fontSize.value + "px"
     msgDisplay.style.fontSize = fontSize.value + "px"
+})
+
+submit.addEventListener('click', function() {
+    alert('Let\'s pretend this did something')
 })
