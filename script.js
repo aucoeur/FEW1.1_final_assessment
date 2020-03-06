@@ -30,7 +30,7 @@ fontType.addEventListener('change', function() {
     msgDisplay.style.fontFamily = fontType.value
 })
 
-fontSize.addEventListener('change', function() {
+fontSize.addEventListener('input', function() {
     titleDisplay.style.fontSize = fontSize.value + "px"
     msgDisplay.style.fontSize = fontSize.value + "px"
 })

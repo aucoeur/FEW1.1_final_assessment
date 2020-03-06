@@ -4,6 +4,7 @@ body {
 }
 
 .container {
+    margin: 35px;
     display: flex;
     flex-direction: row;
 
